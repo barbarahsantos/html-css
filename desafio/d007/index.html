@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Flexível</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <hr>
+    <p>Você está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x1F609;</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagem/rio-de-janeiro-500.jpeg" type="image/jpeg">
+        <source media="(max-width: 1000px)" srcset="imagem/rio-de-janeiro-700.jpeg" type="image/jpeg">
+        <img src="imagem/rio-de-janeiro.jpeg" alt="Rio de Janeiro">
+    </picture>
+</body>
+</html>
